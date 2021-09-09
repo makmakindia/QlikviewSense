@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50642</QvBuildNo>
+   <CreatorDoc>E:\ArunQV\bootcamp\QVW\12rowNoDemoMaxExitScript.qvw</CreatorDoc>
+   <CreateUtcTime>2021-09-07 17:36:40</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Product</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>ProductKey</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>606</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>3030</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductSubcategoryKey</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>3030</Offset>
+       <Length>55</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductName</FieldName>
+       <BitOffset>22</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>606</NoOfSymbols>
+       <Offset>3085</Offset>
+       <Length>22878</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>StandardCost</FieldName>
+       <BitOffset>14</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>149</NoOfSymbols>
+       <Offset>25963</Offset>
+       <Length>1337</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>FinishedGoodsFlag</FieldName>
+       <BitOffset>87</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>27300</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Color</FieldName>
+       <BitOffset>40</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>27310</Offset>
+       <Length>83</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SafetyStockLevel</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>27393</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ReorderPoint</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>27423</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ListPrice</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>133</NoOfSymbols>
+       <Offset>27453</Offset>
+       <Length>865</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DaysToManufacture</FieldName>
+       <BitOffset>83</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>28318</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ProductLine</FieldName>
+       <BitOffset>44</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>14</NoOfSymbols>
+       <Offset>28338</Offset>
+       <Length>101</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DealerPrice</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>149</NoOfSymbols>
+       <Offset>28439</Offset>
+       <Length>1341</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Manufacturer</FieldName>
+       <BitOffset>75</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>29780</Offset>
+       <Length>137</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Description</FieldName>
+       <BitOffset>56</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>220</NoOfSymbols>
+       <Offset>29917</Offset>
+       <Length>15863</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Status</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>45780</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SupplierId</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>45789</Offset>
+       <Length>40</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>606</NoOfRecords>
+   <Offset>45829</Offset>
+   <Length>6666</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+   <TableTags></TableTags>
+   <ProfilingData></ProfilingData>
+ </QvdTableHeader>
+                         	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z   [   \   ]   ^   _   `   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z   {   |   }   ~      €      ‚   ƒ   „   …   †   ‡   ˆ   ‰   Š   ‹   Œ      Ž         ‘   ’   “   ”   •   –   —   ˜   ™   š   ›   œ      ž   Ÿ       ¡   ¢   £   ¤   ¥   ¦   §   ¨   ©   ª   «   ¬   ­   ®   ¯   °   ±   ²   ³   ´   µ   ¶   ·   ¸   ¹   º   »   ¼   ½   ¾   ¿   À   Á   Â   Ã   Ä   Å   Æ   Ç   È   É   Ê   Ë   Ì   Í   Î   Ï   Ð   Ñ   Ò   Ó   Ô   Õ   Ö   ×   Ø   Ù   Ú   Û   Ü   Ý   Þ   ß   à   á   â   ã   ä   å   æ   ç   è   é   ê   ë   ì   í   î   ï   ð   ñ   ò   ó   ô   õ   ö   ÷   ø   ù   ú   û   ü   ý   þ   ÿ                      	  
+                                               !  "  #  $  %  &  '  (  )  *  +  ,  -  .  /  0  1  2  3  4  5  6  7  8  9  :  ;  <  =  >  ?  @  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  [  \  ]  ^  _  `  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~    €    ‚  ƒ  „  …  †  ‡  ˆ  ‰  Š  ‹  Œ    Ž      ‘  ’  “  ”  •  –  —  ˜  ™  š  ›  œ    ž  Ÿ     ¡  ¢  £  ¤  ¥  ¦  §  ¨  ©  ª  «  ¬  ­  ®  ¯  °  ±  ²  ³  ´  µ  ¶  ·  ¸  ¹  º  »  ¼  ½  ¾  ¿  À  Á  Â  Ã  Ä  Å  Æ  Ç  È  É  Ê  Ë  Ì  Í  Î  Ï  Ð  Ñ  Ò  Ó  Ô  Õ  Ö  ×  Ø  Ù  Ú  Û  Ü  Ý  Þ  ß  à  á  â  ã  ä  å  æ  ç  è  é  ê  ë  ì  í  î  ï  ð  ñ  ò  ó  ô  õ  ö  ÷  ø  ù  ú  û  ü  ý  þ  ÿ                     	  
+                                               !  "  #  $  %  &  '  (  )  *  +  ,  -  .  /  0  1  2  3  4  5  6  7  8  9  :  ;  <  =  >  ?  @  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  [  \  ]  ^           	   
+                     awari  512MB MP3 Player E51 Silver awari  512MB MP3 Player E51 Blue awari  1G MP3 Player E100 White awari  2G MP3 Player E200 Silver awari  2G MP3 Player E200 Red awari  2G MP3 Player E200 Black awari  2G MP3 Player E200 Blue awari  4G MP3 Player E400 Silver awari  4G MP3 Player E400 Black awari  4G MP3 Player E400 Green awari  4G MP3 Player E400 Orange awari  4GB Flash MP3 Player E401 Blue awari  4GB Flash MP3 Player E401 Black awari  4GB Flash MP3 Player E401 Silver awari  4GB Flash MP3 Player E401 White awari  8GB Super-Slim MP3/Video Player M800 White awari  8GB Super-Slim MP3/Video Player M800 Red awari  8GB Super-Slim MP3/Video Player M800 Green awari  8GB Super-Slim MP3/Video Player M800 Pink awari  8GB MP3 Player new model M820 Black awari  8GB MP3 Player new model M820 Blue awari  8GB MP3 Player new model M820 Yellow awari  8GB MP3 Player new model M820 White awari  16GB MP3 Player M1600 Blue awari  16GB MP3 Player M1600 Black awari  16GB MP3 Player M1600 Green awari  16GB MP3 Player M1600 White awari  16GB MP3 Player M1600 Red awari  32GB Video MP4 Player M3200 White awari  32GB Video MP4 Player M3200 Red awari  32GB Video MP4 Player M3200 Orange awari  32GB Video MP4 Player M3200 Pink awari  32GB Video MP4 Player M3200 Black awari  4GB Portable MP3 Player M450 Black awari  4GB Portable MP3 Player M450 White awari  4GB Portable MP3 Player M450 Yellow awari  8GB Clock & Radio MP3 Player X850 Silver awari  8GB Clock & Radio MP3 Player X850 Black awari  8GB Clock & Radio MP3 Player X850 Green awari  8GB Clock & Radio MP3 Player X850 Blue awari  16GB New Generation MP4 Player M1650 Silver awari  16GB New Generation MP4 Player M1650 White awari  16GB New Generation MP4 Player M1650 Black awari  16GB New Generation MP4 Player M1650 blue awari  16GB New Generation MP4 Player M1650 Pink BWI  1GB Pulse Smart pen E50 White BWI  1GBPulse Smart pen E50 Black BWI  1GB Pulse Smart pen E50 Silver BWI  2GB Pulse Smart pen M100 White BWI  2GB Pulse Smart pen M100 Black BWI  2GB Pulse Smart pen M100 Blue BWI  2GB Pulse Smart pen M100 Silver BWI  4GB Video Recording Pen X200 Black BWI  4GB Video Recording Pen X200 Red BWI  4GB Video Recording Pen X200 Pink BWI  4GB Video Recording Pen X200 Yellow BWI  1GB Digital Voice Recorder Pen E100 Black BWI  1GB Digital Voice Recorder Pen E100 Red BWI  1GB Digital Voice Recorder Pen E100 Pink BWI  1GB Digital Voice Recorder Pen E100 White BWI  2GB Spy Video Recorder Pen M300 Black BWI  2GB Spy Video Recorder Pen M300 White BWI  2GB Spy Video Recorder Pen M300 Blue BWI  2GB Spy Video Recorder Pen M300 Silver BWI  2GB Spy Video Recorder Pen M300 Purple IT  Bluetooth Stereo Headphones E52 Blue IT  Bluetooth Stereo Headphones E52 Black IT  Bluetooth Stereo Headphones E52 Yellow IT  Bluetooth Stereo Headphones E52 Pink IT  Wireless Bluetooth Stereo Headphones E102 Silver IT  Wireless Bluetooth Stereo Headphones E102 Black IT  Wireless Bluetooth Stereo Headphones E102 Blue IT  Wireless Bluetooth Stereo Headphones E102 White IT  Bluetooth Active Headphones E202 Black IT  Bluetooth Active Headphones E202 White IT  Bluetooth Active Headphones E202 Red IT  Bluetooth Active Headphones E202 Silver IT  Wireless Bluetooth Stereo Headphones E302 Silver IT  Wireless Bluetooth Stereo Headphones E302 White IT  Wireless Bluetooth Stereo Headphones E302 Yellow IT  Wireless Bluetooth Stereo Headphones E302 Black IT  Wireless Bluetooth Stereo Headphones E302 Pink IT  Wireless Bluetooth Stereo Headphones M402 Silver IT  Wireless Bluetooth Stereo Headphones M402 Red IT  Wireless Bluetooth Stereo Headphones M402 Green IT  Wireless Bluetooth Stereo Headphones M402 Black IT  Wireless Bluetooth Stereo Headphones M402 Purple IT  Wireless Transmitter and Bluetooth Headphones M150 Black IT  Wireless Transmitter and Bluetooth Headphones M150 Blue IT  Wireless Transmitter and Bluetooth Headphones M150 Silver IT  Wireless Transmitter and Bluetooth Headphones M150 Green IT  Wireless Transmitter and Bluetooth Headphones M150 Red BWI  Stereo Bluetooth Headphones E1000 Blue BWI  Stereo Bluetooth Headphones E1000 Black BWI  Stereo Bluetooth Headphones E1000 Silver BWI  Stereo Bluetooth Headphones E1000 White BWI  Stereo Bluetooth Headphones E1000 Green BWI  Wireless Bluetooth Stereo Headphones M170 Silver BWI  Wireless Bluetooth Stereo Headphones M170 Black BWI  Wireless Bluetooth Stereo Headphones M170 White BWI  Wireless Bluetooth Stereo Headphones M170 Pink BWI  Wireless Bluetooth Stereo Headphones M270 Silver BWI  Wireless Bluetooth Stereo Headphones M270 Black BWI  Wireless Bluetooth Stereo Headphones M270 White BWI  Wireless Bluetooth Stereo Headphones M270 Pink BWI  Stereo Bluetooth Headphones New Generation M370 Black BWI  Stereo Bluetooth Headphones New Generation M370 White BWI  Stereo Bluetooth Headphones New Generation M370 Yellow BWI  Stereo Bluetooth Headphones New Generation M370 Orange BWI  Stereo Bluetooth Headphones New Generation M370 Blue BWI  Wireless Transmitter and Bluetooth Headphones X250 Black BWI  Wireless Transmitter and Bluetooth Headphones X250 Blue BWI  Wireless Transmitter and Bluetooth Headphones X250 White BWI  Wireless Transmitter and Bluetooth Headphones X250 Red BWI  Wireless Transmitter and Bluetooth Headphones X250 Silver Advent 20" CRT TV E15 Silver Advent 20" CRT TV E15 Black Advent 20" CRT TV E15 White Advent 13" Color TV E25 Silver Advent 13" Color TV E25 Black Advent 13" Color TV E25 White Advent 19" Portable LCD HDTV M110 Silver Advent 19" Portable LCD HDTV M110 Black Advent 19" Portable LCD HDTV M110 White Advent 19" Color Digital TV E35 Silver Advent 19" Color Digital TV E35 Black Advent 19" Color Digital TV E35 White Advent 19" Color Digital TV E35 Brown Advent 20" Analog CRT TV E45 Silver Advent 20" Analog CRT TV E45 Black Advent 20" Analog CRT TV E45 White Advent 20" Analog CRT TV E45 Brown Advent 20" LCD HDTV M120 Silver Advent 20" LCD HDTV M120 Black Advent 20" LCD HDTV M120 White Advent 20" LCD HDTV M120 Brown Advent 32" LCD HDTV M130 Silver Advent 32" LCD HDTV M130 Black Advent 32" LCD HDTV M130 White Advent 32" LCD HDTV M130 Brown Advent 15.6" LCD TV M130W Silver Advent 15.6" LCD TV M130W Black Advent 15.6" LCD TV M130W White Advent 15.6" LCD TV M130W Brown Advent 52" LCD HDTV X590 Silver Advent 52" LCD HDTV X590 Black Advent 52" LCD HDTV X590 White Advent 52" LCD HDTV X590 Brown Advent 40" LCD HDTV M690 Silver Advent 40" LCD HDTV M690 Black Advent 40" LCD HDTV M690 White Advent 40" LCD HDTV M690 Brown Advent 26" 720p LCD HDTV M140 Silver Advent 26" 720p LCD HDTV M140 Black Advent 26" 720p LCD HDTV M140 White Advent 26" 720p LCD HDTV M140 Brown Advent 37" 1080p LCD HDTV M150W Silver Advent 37" 1080p LCD HDTV M150W Black Advent 37" 1080p LCD HDTV M150W White Advent 37" 1080p LCD HDTV M150W Brown Advent 52" LCD HDTV X790W Silver Advent 52" LCD HDTV X790W Black Advent 52" LCD HDTV X790W White Advent 52" LCD HDTV X790W Brown Advent 42" LCD HDTV M55 Black Southern V  16xDVD M300 Black Southern V  8xDVD E100 Black Southern V  16xDVD M310 Black Southern V  16xDVD M320 Black Southern V  16xDVD M330 Black Southern V  16xDVD E340 Black Southern V  22xDVD X680 Black Southern V  8xDVD E120 Black Southern V  22xDVD M600 Black Southern V  16xDVD M350 Black Southern V  16xDVD M360 Black Southern V  8xDVD E130 Black Southern V  8xDVD E140 Black Southern V  16xDVD M300 Silver Southern V  8xDVD E100 Silver Southern V  16xDVD M310 Silver Southern V  16xDVD M320 Silver Southern V  16xDVD M330 Silver Southern V  16xDVD E340 Silver Southern V  22xDVD X680 Silver Southern V  8xDVD E120 Silver Southern V  22xDVD M600 Silver Southern V  16xDVD M350 Silver Southern V  16xDVD M360 Silver Southern V  8xDVD E130 Silver Southern V  8xDVD E140 Silver FliWire  Home Theater System 4.1 Channel M410 Black FliWire  Home Theater System 5.1 Channel M511 Black FliWire  Home Theater System 2.1 Channel E210 Black FliWire  Home Theater System 5.1 Channel M510 Black FliWire  Home Theater System 2.1 Channel E211 Black FliWire  Home Theater System 2.1 Channel E212 Black FliWire  Home Theater System 4.1 Channel M411 Black FliWire  Home Theater System 4.1 Channel M412 Black FliWire  Home Theater System 4.1 Channel M413 Black FliWire  Home Theater System 5.1 Channel M512 Black FliWire  Home Theater System 5.1 Channel M513 Black FliWire  Home Theater System 7.1 Channel M710 Black FliWire  Home Theater System 7.1 Channel X711 Black FliWire  Home Theater System 5.1 Channel M514 Black FliWire  Home Theater System 5.1 Channel M515 Black FliWire  Home Theater System 5.1 Channel M516 Black FliWire  Home Theater System 4.1 Channel M410 Silver FliWire  Home Theater System 5.1 Channel M511 Silver FliWire  Home Theater System 2.1 Channel E210 Silver FliWire  Home Theater System 5.1 Channel M510 Silver FliWire  Home Theater System 2.1 Channel E211 Silver FliWire  Home Theater System 2.1 Channel E212 Silver FliWire  Home Theater System 4.1 Channel M411 Silver FliWire  Home Theater System 4.1 Channel M412 Silver FliWire  Home Theater System 4.1 Channel M413 Silver FliWire  Home Theater System 5.1 Channel M512 Silver FliWire  Home Theater System 5.1 Channel M513 Silver FliWire  Home Theater System 7.1 Channel M710 Silver FliWire  Home Theater System 7.1 Channel X711 Silver FliWire  Home Theater System 5.1 Channel M514 Silver FliWire  Home Theater System 5.1 Channel M515 Silver FliWire  Home Theater System 5.1 Channel M516 Silver FliWire  Home Theater System 4.1 Channel M410 Brown FliWire  Home Theater System 5.1 Channel M511 Brown FliWire  Home Theater System 2.1 Channel E210 Brown FliWire  Home Theater System 5.1 Channel M510 Brown FliWire  Home Theater System 2.1 Channel E211 Brown FliWire  Home Theater System 2.1 Channel E212 Brown FliWire  Home Theater System 4.1 Channel M411 Brown FliWire  Home Theater System 4.1 Channel M412 Brown FliWire  Home Theater System 4.1 Channel M413 Brown FliWire  Home Theater System 5.1 Channel M512 Brown FliWire  Home Theater System 5.1 Channel M513 Brown FliWire  Home Theater System 7.1 Channel M710 Brown FliWire  Home Theater System 7.1 Channel X711 Brown FliWire  Home Theater System 5.1 Channel M514 Brown FliWire  Home Theater System 5.1 Channel M515 Brown FliWire  Home Theater System 5.1 Channel M516 Brown awari  Home Theater System 2.1 Channel E1200 Black awari  Home Theater System 2.1 Channel M1210 Black awari  Home Theater System 7.1 Channel M1700 Black awari  Home Theater System 4.1 Channel M1400 Black awari  Home Theater System 5.1 Channel M1500 Black awari  Home Theater System 5.1 Channel M1510 Black awari  Home Theater System 4.1 Channel M1410 Black awari  Home Theater System 5.1 Channel M1520 Black awari  Home Theater System 5.1 Channel M1530 Black awari  Home Theater System 2.1 Channel E1220 Black awari  Home Theater System 5.1 Channel M1540 Black awari  Home Theater System 4.1 Channel M1420 Black awari  Home Theater System 2.1 Channel M1230 Black awari  Home Theater System 2.1 Channel E1200 Silver awari  Home Theater System 2.1 Channel M1210 Silver awari  Home Theater System 7.1 Channel M1700 Silver awari  Home Theater System 4.1 Channel M1400 Silver awari  Home Theater System 5.1 Channel M1500 Silver awari  Home Theater System 5.1 Channel M1510 Silver awari  Home Theater System 4.1 Channel M1410 Silver awari  Home Theater System 5.1 Channel M1520 Silver awari  Home Theater System 5.1 Channel M1530 Silver awari  Home Theater System 2.1 Channel E1220 Silver awari  Home Theater System 5.1 Channel M1540 Silver awari  Home Theater System 4.1 Channel M1420 Silver awari  Home Theater System 2.1 Channel M1230 Silver awari  Home Theater System 2.1 Channel E1200 White awari  Home Theater System 2.1 Channel M1210 White awari  Home Theater System 7.1 Channel M1700 White awari  Home Theater System 4.1 Channel M1400 White awari  Home Theater System 5.1 Channel M1500 White awari  Home Theater System 5.1 Channel M1510 White awari  Home Theater System 4.1 Channel M1410 White awari  Home Theater System 5.1 Channel M1520 White awari  Home Theater System 5.1 Channel M1530 White awari  Home Theater System 2.1 Channel E1220 White awari  Home Theater System 5.1 Channel M1540 White awari  Home Theater System 4.1 Channel M1420 White awari  Home Theater System 2.1 Channel M1230 White awari  Home Theater System 2.1 Channel E1200 Brown awari  Home Theater System 2.1 Channel M1210 Brown awari  Home Theater System 7.1 Channel M1700 Brown awari  Home Theater System 4.1 Channel M1400 Brown awari  Home Theater System 5.1 Channel M1500 Brown awari  Home Theater System 5.1 Channel M1510 Brown awari  Home Theater System 4.1 Channel M1410 Brown awari  Home Theater System 5.1 Channel M1520 Brown awari  Home Theater System 5.1 Channel M1530 Brown awari  Home Theater System 2.1 Channel E1220 Brown awari  Home Theater System 5.1 Channel M1540 Brown awari  Home Theater System 4.1 Channel M1420 Brown awari  Home Theater System 2.1 Channel M1230 Brown Southern V  Car Video LCD7W M7080 Black Southern V  Car Video LCD7W M7081 Black Southern V  Car Video TFT7 M7000 Black Southern V  Car Video TFT6.2W E6280 Black Southern V  Car Video TFT6.2W E6281 Black Southern V  Car Video TFT6.2W E6282 Black Southern V  Car Video TFT7 M7001 Black Southern V  Car Video AM/FM E1000 Black Southern V  Car Video AM/FM E1001 Black Southern V  Car Video TFT7 M7002 Black Southern V  Car Video LCD9.2W X9280 Black Southern V  Car Video LCD9.2W X9281 Black Southern V  Car Video LCD7W M7082 Black Southern V  Car Video LCD7 M7001 Black Southern V  Car Video LCD7 M7002 Black Southern V  Car Video LCD7 M7003 Black Southern V  Car Video LCD7W M7080 Silver Southern V  Car Video LCD7W M7081 Silver Southern V  Car Video TFT7 M7000 Silver Southern V  Car Video TFT6.2W E6280 Silver Southern V  Car Video TFT6.2W E6281 Silver Southern V  Car Video TFT6.2W E6282 Silver Southern V  Car Video TFT7 M7001 Silver Southern V  Car Video AM/FM E1000 Silver Southern V  Car Video AM/FM E1001 Silver Southern V  Car Video TFT7 M7002 Silver Southern V  Car Video LCD9.2W X9280 Silver Southern V  Car Video LCD9.2W X9281 Silver Southern V  Car Video LCD7W M7082 Silver Southern V  Car Video LCD7 M7001 Silver Southern V  Car Video LCD7 M7002 Silver Southern V  Car Video LCD7 M7003 Silver Southern V  Car Video LCD7W M7080 Brown Southern V  Car Video LCD7W M7081 Brown Southern V  Car Video TFT7 M7000 Brown Southern V  Car Video TFT6.2W E6280 Brown Southern V  Car Video TFT6.2W E6281 Brown Southern V  Car Video TFT6.2W E6282 Brown Southern V  Car Video TFT7 M7001 Brown Southern V  Car Video AM/FM E1000 Brown Southern V  Car Video AM/FM E1001 Brown Southern V  Car Video TFT7 M7002 Brown Southern V  Car Video LCD9.2W X9280 Brown Southern V  Car Video LCD9.2W X9281 Brown Southern V  Car Video LCD7W M7082 Brown Southern V  Car Video LCD7 M7001 Brown Fab  Laptop19W M9800 Black Fab  Laptop17W M7080 Black Fab  Laptop17 M7000 Black Fab  Laptop16W M6080 Black Fab  Laptop16 M6000 Black Fab  Laptop19 M9000 Black Fab  Laptop12 M2000 White Fab  Laptop15 M5000 White Fab  Laptop15.4 M5400 White Fab  Laptop14.1 M4100 White Fab  Laptop15.4W M5480 White Fab  Laptop10.1 M0100 White Fab  Laptop12W M2080 Silver Fab  Laptop8.9W E0880 Silver Fab  Laptop8.9 E0800 Silver Fab  Laptop10.1 M0101 Silver Fab  Laptop12 M2001 Silver Fab  Laptop8.9 M0801 Silver Fab  Laptop14.1W M4180 Red Fab  Laptop14.1 E4101 Red Fab  Laptop8.9 E8002 Red Fab  Laptop12 M2002 Red Fab  Laptop13.3 M3000 Red Fab  Laptop13.3W M3080 Red Advent Laptop19 X1900 Black Advent Laptop15 M1500 Black Advent Laptop12 M1200 Black Advent Laptop16 M1600 Black Advent Laptop15.4W M1548 Black Advent Laptop8.9 E0890 Black Advent Laptop19W X1980 White Advent Laptop15 M1501 White Advent Laptop12 M1201 White Advent Laptop16 M1601 White Advent Laptop15.4W M1548 White Advent Laptop8.9 E0890 White Advent Laptop19W X1980 Silver Advent Laptop15 M1501 Silver Advent Laptop12 M1201 Silver Advent Laptop16 M1601 Silver Advent Laptop15.4W M1548 Silver Advent Laptop8.9 E0890 Silver Advent Laptop19W X1980 Red Advent Laptop15 M1501 Red Advent Laptop12 M1201 Red Advent Laptop16 M1601 Red Advent Laptop15.4W M1548 Red Advent Laptop8.9 E0890 Red Advent Laptop19W X1980 Blue Advent Laptop15 M1501 Blue Advent Laptop12 M1201 Blue Advent Laptop16 M1601 Blue BWI  Laptop19W X0196 Black BWI  Laptop15 M0150 Black BWI  Laptop12 M0120 Black BWI  Laptop16 M0160 Black BWI  Laptop15.4W M0156 Black BWI  Laptop8.9 E0089 Black BWI  Laptop19W X0196 White BWI  Laptop15 M0150 White BWI  Laptop12 M0120 White BWI  Laptop16 M0160 White BWI  Laptop15.4W M0156 White BWI  Laptop8.9 E0089 White BWI  Laptop19W X0196 Blue BWI  Laptop15 M0150 Blue BM  Laptop19 X910 Black BM  Laptop15 M510 Black BM  Laptop12 M210 Black BM  Laptop16 M610 Black BM  Laptop15.4W M518 Black BM  Laptop8.9 E089 Black BM  Laptop19W X910 White BM  Laptop15 M510 White BM  Laptop12 M210 White BM  Laptop16 M610 White BM  Laptop15.4W M518 White BM  Laptop8.9 E089 White Advent Desktop PC2.33 XD233 Silver Advent Desktop PC2.30 MD230 Silver Advent Desktop PC1.60 ED160 Silver Advent Desktop PC1.80 ED180 Silver Advent Desktop PC1.80 ED182 Silver Advent Desktop PC3.0 MS300 Silver Advent Desktop PC2.33 XD233 Black Advent Desktop PC2.30 MD230 Black Advent Desktop PC1.60 ED160 Black Advent Desktop PC1.80 ED180 Black Advent Desktop PC1.80 ED182 Black Advent Desktop PC3.0 MS300 Black Advent Desktop PC2.33 XD233 Brown Advent Desktop PC2.30 MD230 Brown Advent Desktop PC1.60 ED160 Brown Advent Desktop PC1.80 ED180 Brown Advent Desktop PC1.80 ED182 Brown Advent Desktop PC2.33 XD233 White Advent Desktop PC2.30 MD230 White Advent Desktop PC1.60 ED160 White Advent Desktop PC1.80 ED180 White Advent Desktop PC1.80 ED182 White BWI  Desktop PC2.33 X2330 Silver BWI  Desktop PC2.30 M2300 Brown BWI  Desktop PC1.60 E1600 Silver BWI  Desktop PC1.80 E1800 Brown BWI  Desktop PC1.80 E1801 Silver BWI  Desktop PC3.0 M0300 Silver BWI  Desktop PC2.33 X2330 Black BWI  Desktop PC2.30 M2300 Black BWI  Desktop PC1.60 E1600 Black BWI  Desktop PC1.80 E1800 Black BWI  Desktop PC1.80 E1801 Black BWI  Desktop PC3.0 M0300 Black BWI  Desktop PC2.33 X2330 Brown BWI  Desktop PC2.30 M2300 Silver BWI  Desktop PC1.60 E1600 Red BWI  Desktop PC1.80 E1800 Silver BWI  Desktop PC1.80 E1801 Brown BWI  Desktop PC2.33 X2330 White BWI  Desktop PC2.30 M2300 White BWI  Desktop PC1.60 E1600 White BWI  Desktop PC1.80 E1800 White BWI  Desktop PC1.80 E1801 White BWI  Desktop PC1.80 E1802 White BM  LCD24 X300 Black BM  LCD24W X300 Black BM  LCD22 M2000 Black BM  LCD22W M2001 Black BM  LCD20 M200 Black BM  LCD20W M230 Black BM  LCD19 E1000 Black BM  LCD19W M100 Black BM  LCD17 E200 Black BM  LCD17W E202 Black BM  LCD15 E103 Black BM  CRT19 E201 Black BM  CRT17 E104 Black BM  CRT15 E10 Black BM  LCD24 X300 White BM  LCD24W X300 White BM  LCD22 M2000 White BM  LCD22W M2001 White BM  LCD20 M200 White BM  LCD20W M230 White BM  LCD19 E1000 White BM  LCD19W M100 White BM  LCD17 E200 White BM  LCD17W E202 White BM  LCD15 E103 White BM  CRT19 E201 White BM  CRT17 E104 White BM  CRT15 E10 White Advent LCD24 X300 Black Advent LCD24W X300 Black Advent LCD22 M200 Black Advent LCD22W M200 Black Advent LCD20 M210 Black Advent LCD20W M240 Black Advent LCD19 E108 Black Advent LCD19W M100 Black Advent LCD17 E200 Black Advent LCD17W E203 Black Advent LCD15 E100 Black Advent CRT19 E10 Black Advent CRT17 E105 Black Advent CRT15 E101 Black Advent LCD24 X300 White Advent LCD24W X300 White Advent LCD22 M200 White Advent LCD22W M200 White Advent LCD20 M210 White Advent LCD20W M240 White Advent LCD19 E108 White Advent LCD19W M100 White Advent LCD17 E200 White Advent LCD17W E203 White Advent LCD15 E100 White Advent CRT19 E10 White Advent CRT17 E105 White Advent CRT15 E101 White BWI  LCD24 X300 Black BWI  LCD24W X300 Black BWI  LCD22 M2002 Black BWI  LCD22W M2003 Black BWI  LCD20 M220 Black BWI  LCD20W M250 Black BWI  LCD19 E107 Black BWI  LCD19W M100 Black BWI  LCD17 E200 Black BWI  LCD17W E200 Black BWI  CRT17 E106 Black BWI  LCD24 X300 White BWI  LCD24W X300 White BWI  LCD22 M2002 White BWI  LCD22W M2003 White BWI  LCD20 M220 White BWI  LCD20W M250 White BWI  LCD19 E107 White BWI  LCD19W M100 White BWI  LCD17 E205 White BWI  LCD17W E200 White BWI  CRT17 E106 White BM  Projector 1080p LCD86 Black BM  Projector 1080p DLP86 Black BM  Projector 720p LCD56 Black BM  Projector 720p DLP56 Black BM  Projector 480p LCD12 Black BM  Projector 480p DLP12 Black BM  Screen 125in X1609 Black BM  Screen 113in X1609 Black BM  Screen 106in M1609 Black BM  Screen 100in M1609 Black BM  Screen 85in E1010 Black BM  Screen 80in E1010 Black BM  Projector 1080p LCD86 White BM  Projector 1080p DLP86 White BM  Projector 720p LCD56 White BM  Projector 720p DLP56 White BM  Projector 480p LCD12 White BM  Projector 480p DLP12 White BM  Screen 125in X1609 White BM  Screen 113in X1609 White BM  Screen 106in M1609 White BM  Screen 100in M1609 White BM  Screen 85in E1010 White BM  Screen 80in E1010 White BM  Projector 1080p LCD86 Silver BM  Projector 1080p DLP86 Silver BM  Projector 720p LCD56 Silver BM  Projector 720p DLP56 Silver BM  Projector 480p LCD12 Silver BM  Projector 480p DLP12 Silver BM  Screen 125in X1609 Silver BM  Screen 113in X1609 Silver BM  Screen 106in M1609 Silver BM  Screen 100in M1609 Silver BM  Screen 85in E1010 Silver BM  Screen 80in E1010 Silver awari  Projector 1080p X980 Black awari  Projector 1080p X981 Black awari  Projector 720p M620 Black awari  Projector 720p M621 Black awari  Projector 480p M480 Black awari  Projector 480p M481 Black awari  Screen 125in M250 Black awari  Screen 113in M251 Black awari  Screen 106in M060 Black awari  Screen 100in E010 Black awari  Screen 85in E085 Black awari  Screen 80in E080 Black awari  Projector 1080p X980 White awari  Projector 1080p X981 White awari  Projector 720p M620 White awari  Projector 720p M621 White awari  Projector 480p M480 White awari  Projector 480p M481 White awari  Screen 125in M250 White awari  Screen 113in M251 White awari  Screen 106in M060 White awari  Screen 100in E010 White awari  Screen 85in E085 White awari  Screen 80in E080 White awari  Projector 1080p X980 Silver awari  Projector 1080p X981 Silver awari  Projector 720p M620 Silver awari  Projector 720p M621 Silver awari  Projector 480p M480 Silver awari  Projector 480p M481 Silver awari  Screen 125in M250 Silver awari  Screen 113in M251 Silver {®Gáz@š™™™™™@   ®Gáz”>@\Âõ(ÜA@Ház®GI@Âõ(\ÏN@ìQ¸…ûV@Âõ(\U@ö(\ÂuH@)\ÂõÈX@\Âõ(¬Z@ÍÌÌÌÌS@ÍÌÌÌÌüV@®Gáz„X@R¸…ëáS@Âõ(\ÏT@333333*@ÍÌÌÌÌ6@33333s1@fffff¦2@=
+×£pýF@¸…ëQØH@®Gáz.A@×£p=
+—K@q=
+×£pJ@®Gáz”N@…ëQ¸µT@{®GáªU@ö(\Â•N@¸…ëQ`@×£p=
+GR@®Gáz~Y@ö(\Âd@ö(\Â½l@®Gázc@Ãõ(\Ž@š™™™™‰x@¤p=
+×k@š™™™™@
+×£p=|€@\Âõ(Tx@\Âõ(\K@×£p=
+—A@)\Âõ¨M@q=
+×£I@¤p=
+×ÃF@…ëQ¸þK@
+×£p=êF@…ëQ¸…E@áz®GáJ@®Gáz.M@Ãõ(\=@33333Ó@@Âõ(\7q@×£p=
+t@®Gázc@š™™™™]r@333333a@ÍÌÌÌÌc@Ãõ(\Zp@×£p=
+o@š™™™™Ís@ìQ¸…‹p@{®Gáöv@\Âõ(¤p@Âõ(\÷d@q=
+×£hr@q=
+×£j@)\Âõ¨h@¤p=
+×l@®Gáz|c@Ház®ïf@=
+×£p]Y@q=
+×£hn@×£p=
+—n@áz®Gñf@×£p=
+¯l@Ház®Ça@š™™™™`@®Gáz$a@áz®G±c@š™™™™é[@®GázTd@¤p=
+×¯t@…ëQ¸þq@š™™™™éb@®Gáz6e@     Ôx@®GázJy@®GázŠw@×£p=
+Ë{@R¸…ëÁv@33333Sg@ÍÌÌÌÌðr@Ház®×p@áz®GÉu@¸…ëQhh@=
+×£pmi@š™™™™ie@ÍÌÌÌÌdd@Âõ(\‡h@Ház®gh@
+×£p=*g@ìQ¸…Cj@Ház®e@fffffÆd@¤p=
+×sg@Ház®7h@
+×£p=Êh@®Gázæz@ÍÌÌÌÌt@\Âõ(4a@\Âõ(„g@ìQ¸…Ûo@ö(\Âõj@R¸…ë=q@Ház®s@)\Âõp@)\Âõ\@=
+×£pM]@Ház®d@š™™™™õp@{®Gá¢i@×£p=
+l@×£p=
+Ç]@š™™™™	`@ö(\ÂõO@®Gáz”T@\Âõ(<I@áz®GqP@®Gáz>@{®Gáú8@Ház®·Q@\Âõ(Ü6@R¸…ëÑ=@×£p=
+Ã‡@ö(\Âß‰@fffff¶|@     0]@ÍÌÌÌÌÌo@Ãõ(\c@¤p=
+×ÃX@ìQ¸…Û\@Ház®×U@)\ÂõÈK@     0a@
+×£p=ÊT@š™™™™yO@    ÿÿÿÿSilver Blue White Red Black Green Orange Pink Yellow blue Purple Brown è     ô  <      d   î  X  w  -      K   {®Gáú)@
+×£p=
+-@R¸…ë‘5@…ëQ¸þM@ìQ¸…kS@ÍÌÌÌÌ|[@†   ÍÌÌÌÌüh@ÿ   ÍÌÌÌÌüW@Ház®³r@è   fffff¾b@fffffþh@(  œ   µ   q=
+×£°9@š™™™™ùG@š™™™™ùB@fffffFD@Âõ(\ÿX@Ház®¿b@š™™™™ÙP@x   s   Ház®Ÿ`@Ház®?o@Ház®?e@Âõ(\ÿ]@¤p=
+×q@ÍÌÌÌÌìa@È   33333ßu@¤p=
+×?@¤p=
+×¿r@®Gáú§¦@{®Gáƒ’@ìQ¸…_}@)\Âõ/‘@ÍÌÌÌÌà˜@®GázÜ‡@w   E      m   c   ©   š™™™™yV@ÍÌÌÌÌ<`@š™™™™9]@š™™™™¹_@33333sL@B   W  »  +    fffffÞp@fffff¾r@9  %  ±    U  C  I  y  ™  ­  é  S    Ç     à  h  ô  ó        5  Û   ?  ç  e  q  ¯  33333‹@3  Ç  K  n  “  J  ö    P  @  fffffx@33333ïw@     ¸v@fffffŽ|@J  F  p  |  …    É  33333ßp@fffff>@Õ  33333¿‚@—  /  fffff~k@ÍÌÌÌÌ¼l@]  k  §  ‹   ³   ;   1   Z   ÷  Ã	  å   Ë  û   ¾                MP3 MP4 Clock PEN HPhone TV Monitor DVD HThtr CarEnt Laptop Desktop PC Projector BigTV j¼t“Ø%@ìQ¸…k(@fffff&2@Ñ"Ûù~:I@òÒMbxM@B`åÐ"ÛT@P—nkY@–C‹lçõb@P—nma@Ë¡E¶ó-T@;ßO—rd@¬Zd;f@…ëQ¸‰_@)\Âõöb@j¼t“:d@w¾Ÿ/g`@P—n+a@=
+×£p5@)\Âõ0B@{®GáÊ<@ö(\ÂÅ>@sh‘í|÷R@%•CT@F¶óýÔXL@^ºIÃV@ã¥›Ä ÐU@Ñ"Ûù~:Y@•C‹la@V-àa@d;ßO;Y@J+‡Žj@#Ûù~j(^@¼t“e@d;ßO˜p@þÔxé&¶w@¬Zd;‹o@ôýÔxiÅ˜@¸…ëQ>„@!°rh‘Iv@…ëQ8Š@7‰A`e3‹@¬Zd;„@ßO—n’V@¼t“M@Õxé&1xX@}?5^º­T@‡ÙÎ÷ÇR@•C‹W@Ï÷Sã¥çR@/Ý$ÁQ@“V-V@‰A`åÐX@ôýÔxéîG@{®GáÂK@ /Ý$h|@^ºI“€@F¶óýÔpo@q=
+×£M~@áz®Gal@…ëQ¸‰o@çû©ñÒûz@‘í|?5	z@R¸…kV€@øSã¥›L{@j¼tò‚@%•Cu{@P—nLq@`åÐ"Û_~@°rh‘í€u@Õxé&1Xt@!°rh‘0w@Ñ"Ûù~p@B`åÐ"ìr@+‡íd@ÙÎ÷Sy@øSã¥›<y@ú~j¼tír@^ºIªw@ƒÀÊ¡EVm@
+×£p=<k@¢E¶óýHl@“V?p@…ëQ¸g@V-²Åp@!°rh@+‡±}@q=
+×£4o@‰A`åÐq@3333³{„@V-²Ý„@¼t“„kƒ@Å °rèí†@ªñÒMbÆ‚@
+×£p=>s@ìQ¸…@@ƒÀÊ¡EÊ{@ÇK7‰Aù@¾Ÿ/Ý"t@?5^ºIút@¸…ëQªq@\Âõ(Óp@¶óýÔx<t@u“V"t@œÄ °rs@–C‹lçªu@¨ÆK7‰Yq@Ház®#q@ºI+Ys@Ûù~j¼ús@Ï÷Sã¥st@¼t“1†@Âõ(Ü€@¾Ÿ/Ýbl@ƒÀÊ¡fs@ü©ñÒMHz@Ë¡E¶ó=v@‡ÙÎ÷r|@ƒÀÊ¡Ef@ªñÒMb‚z@¢E¶óý g@¦›Ä °,h@-²ïŒp@q=
+×£û{@L7‰A`&u@‘í|?53w@^ºI‘h@
+×£p=vj@Ë¡E¶ó]Z@Ñ"Ûù~ú`@ƒÀÊ¡ÑT@Zd;ßO![@7‰A`åÐH@²ï§Æ›D@Zd;ß;]@yé&1ÜB@D‹lçû™H@^ºI‚š“@1¬šX•@®Gáz°‡@fffffh@\Âõ(<z@çû©ñÒ]o@î|?5^nd@bX9´Îg@B`åÐ"b@Õxé&1ìV@     \l@+‡Ù&a@ìQ¸…÷Y@awari Big World Importers International Traders Advent Electronics Southern Video FliWire, Inc Fabrication, LLC Big Monitor, Inc 512MB USB driver plays MP3 and WMA 1GB flash memory and USB driver plays MP3 and WMA 2GB flash memory, LCD display, plays MP3 and WMA 4GB flash memory and FM Radio, LCD Display with 7-Color Backlight, plays MP3 and WMA 1.8'' color LCD, play MP3, WMA and Video MTV, and share JPG 2" color LCD, Touchpad, Plays music, video, photos and text 2'' LCD with blue-white LED, 320x240-pixel, plays music, video, photos and text, display JPEG, BMP, GIF, TIFF and PNG 3" 16:9 TFT Touch screen, 16GB flash memory, plays AVI/RM/RMVB/FLV 4.3'' Touch screen, 32GB flash memory, beyond 30 hours battery life 4GB built in memory, USB driver and earphone, play MP3, WMA 2.6'' Touch screen, 8GB flash memory, clock and radio, plays AVI/RM/RMVB 2.4'' LCD Touch screen, 8GB flash memory, plays music, video, photos and text, share JPEG, BMP, GIF, TIFF Record and link audio to be written, listen to recordings, share notes and recording with computer 640 x 480 VGA audio video pen, business portable recorder, about 3 hours recording Voice recorder, MP3 player, USB flash drive, 64 hours recording 2GB flash memory, USB driver, continuous recording until memory full, as spy cameras, hidden cameras Seamlessly integrates wireless mobile music and calls Wireless range beyond 10 meters, MP3-quality stereo sound Wireless range up10 meters, beyond 7-hour talking time. Built-In Microphone, integrated headphone button to play/pause Wireless range extends to 165 feet, beyond 8 hours per charge Seamlessly switch between music and calls, integrated ouch sensitive play-answer-end and volume controls Wireless headphones with 120 ft range, built-in microphone Built-In Microphone, integrated headphone button to play/pause, MP3-quality stereo sound Listening to music wirelessly with other Bluetooth audio devices, built-in microphone for phone call usage 20'' CRT television, built-in ATSC/NTSC tuner, receive digital and analog channels 13'' Color TV, ATSC/QAM Tuner, 120 minute sleep timer 19'' 720p LCD HDTV, 2 HDMI inputs, PC input for computers 19'' color TV, ATSC/QAM Tuner 20" Analog CRT TV, digital comb filter removes blurred edges between colors 20'' 720p LCD HDTV, HDMI v 1.3 digital inputs 32'' 720p LCD HDTV, Back-Light Control, Built-In ATSC/NTSC/QAM Digital Tuning 15.6'' Widescreen LCD TV, built-in DVD Player 52'' 1080p 240Hz LCD HDTV, Four HDMI, two component, one PC, and two composite video inputs 40'' 1080p LCD HDTV, 70,000:1 dynamic contrast ratio, 6ms response time, Wide Color Enhancer 2 for more vivid colors 26'' 720p LCD HDTV, 720p HD LCD Panel, Theater Wide Picture Modes 37'' 1080p Widescreen LCD HDTV, 3 HDMI Inputs, USB 2.0 Connectivity 52'' 1080p 120Hz LCD HDTV, 16:9 Full HD 1080p Resolution (1920x1080p) LCD Panel 42'' 720p LCD HDTV, 1000000:1 Dynamic Contrast Ratio for the Brightest whites and darkest blacks Type:  16xDVD Playback, platform: Contoso 360. Type:  8xDVD Playback. Type Storage media-DVD-RAM. DVD-R/DVD-RAM purpose for video Native Capacity 9.4 GB Type:  16xDVD Playback, digital video recorder with 250GB hard drive. Network and Internet remote viewing with optional broadband router Type: 16xDVD Playback. Plays DVD, DVD-R/RW, DVD+R/RW, CD, CD-R/RW, MP3, WMA Type: 16xDVD Playback. Digital Audio Output Type: HDMI, Optical & Coaxial. HDMI Outputs: Yes Plays DVD Video, DVD+R/RW, DVD-R/RW, CD-R/RW and Audio CD, LED indicator Type:  22xDVD Playback, Line-In Recording - Satellite Link Recording. Type:  8xDVD Playback, type storage media - DVD-RAM, DVD-R/DVD-RAM purpose for video, native capacity 29.4 GB, write Speed 8x (max) Type: 22xDVD Playback. Network and Internet remote viewing with optional broadband router Type: 16xDVD Playback plays DVD, DVD-R/RW, CD, CD-R/RW, MP3, WMA, and JPEG Type: 16xDVD Playback, digital audio output type: HDMI, Optical & Coaxial, HDMI outputs Type: 8xDVD Playback plays DVD Video, DVD+R/RW, DVD-R/RW, CD-R/RW and Audio CD, LED indicator Type: 8xDVD Playback. Line-In recording -satellite link recording. Sync recording to STB output Type:  8xDVD Playback, type Storage media - DVD-RAM. DVD-R/DVD-RAM purpose for video, native capacity 9.4 GB Type: 16xDVD Playback, digital video recorder with 250GB hard drive, network and Internet remote viewing with optional broadband router Type:  16xDVD Playback. Plays DVD, DVD-R/RW, DVD+R/RW, CD, CD-R/RW, MP3, WMA Type:  16xDVD Playback. Digital Audio Output Type: HDMI, Optical & Coaxial. HDMI Outputs: Yes Type: 22xDVD Playback, line-in recording-satellite link recording Type: 8xDVD Playback, type Storage media - DVD-RAM. DVD-R/DVD-RAM purpose for video, native capacity 29.4 GB, write Speed 8x (max) Type: 22xDVD Playback, network and Internet remote viewing with optional broadband router Type: 16xDVD Playback. Digital audio output type: HDMI, Optical & Coaxial, HDMI outputs. Type: 8xDVD playback, line-in recording-satellite link recording, sync recording to STB output 4.1 channel front surround 1000watts over 5 channels 2.1 channel home theater system with an HDMI socket, an auxiliary input and a USB port 1000 watts over 5 channels, HDMI up scaling to 720p/1080i of DVD media 2.1 channel home theater systems, includes 2 front speakers, 1 subwoofer and 1 A/V receiver 2.1 channel home theater system, total power: 400 watts 4.1 Channel Front Surround. 1080p/720p up conversion from DVD or USB 4.1 Channel Front Surround, USB host, analog in, optical digital in/out Design produces big and detailed home theater sound from small, elegant high gloss black speakers 1000 watts over 5 channels, 1 center-channel speaker, and 1 subwoofer 1000 watts over 5 channels, 1 center-channel speaker 130 watts total output on 2-way bass reflex front, center, and surround speakers 660 watts into 7.1 Channels (110 watts per Channel at 6 Ohms, 1 kHz, 1 Channel Driven) 1000 watts over 5 channels, multi-room entertainment expandable up to 10 rooms 1000 watts over 5 channels, 5 disc DVD/CD changer 1000 watts over 5 channels, progressive scan player compatible with DVD, CD, Mp3, WMA, and picture CD formats 4.1 Channel Front Surround 1000 watts over 5 channels 2.1 channel home theater system, includes 2 front speakers, 1 subwoofer and 1 A/V receiver 4.1 channel front surround, 1080p/720p up conversion from DVD or USB 4.1 channel fronts surround, USB host, analog in, optical digital in/out 660 watts into 7.1 channels (110 watts per channel at 6 Ohms, 1 kHz, 1 channel driven) 1000 watts over 5 channels, progressive scan player compatible with DVD, CD, Mp3, WMA, and Picture CD formats 4.1 Channel front surround. 1080p/720p up conversion from DVD or USB 2.1 channel home theater system. Total power: 400 watts 660 watts into 7.1 channels 300 watts of home theater surround sound designed for use with 5.1-channel DVD players, computer systems, and more 2.1 channel home theater system, includes 2 front speakers 2.1 channel home theater system, includes 2 front speakers and 1 subwoofer 660 Watts into 7.1 Channels 4.1 Channel Front Surround, 1080p/720p up conversion from DVD or USB 4.1 channel front surround, USB host, Analog In, optical digital in/out 2.1 channel home theater systems, includes 2 front speakers and 1 subwoofer 7" 16:9 wide motorized touch screen active matrix LCD, remote control 7" 16:9 wide motorized touch screen active matrix LCD Contains a pair of car-seat headrests with two 7" TFT monitor 6.2" touch screen TFT widescreen active matrix display. 80W x 4 max power output 6.2" touch screen TFT widescreen active matrix display 6.2" touch screen TFT widescreen active matrix display. 80W x 2 max power output Contains car-seat headrest with two 7" TFT monitor and USB/SD/MMC card reader Plays AM/FM/MP3/WMA and MP4 Plays AM/FM/MP3/WMA and MP4. USB and SD" card reader Contains a pair of car-seat headrests with two 7" TFT monitor, Mp3/mp4 player 9.2" 16:9 widescreen TFT LCD monitor, 768 x 234 pixel resolutions 9.2" 16:9 widescreen TFT LCD monitor, 500:1 contrast ratio 7" 16:9 motorized touch screen active matrix LCD 7" 16:9 motorized touch screen active matrix LCD. 1152 X 234 pixel resolutions 7" 16:9 motorized touch screen active matrix LCD. Brightness: 450 NITS Plays AM/FM/MP3/WMA and MP4, USB and SD" card reader 7" 16:9 motorized touch screen active matrix LCD, brightness: 450 NITS 6.2" touch screen TFT widescreen active matrix display, 80W x 4 max power output 6.2" touch screen TFT widescreen active matrix display, 80W x 2 max power output 320 GB hard drive, 4 GB RAM 19-inches widescreen LCD with perfect 16:9 aspect ratio 320 GB hard drive, 4 GB RAM 17-inches widescreen LCD with perfect 16:9 aspect ratio 320 GB hard drive, 2 GB RAM 17-inches screens LCD 320 GB hard drive, 2 GB RAM 16-inches widescreen LCD 180 GB hard drive, 2 GB RAM 16-inches LCD 320 GB hard drive, 4 GB RAM 19-inches screen LCD 60GB hard drive, 512MB memory 15-inches screen, 60 GB hard drive, 128 MB of RAM (512 MB maximum), DVD-ROM 15.4-inches screen TFT LCD display, 120 GB hard drive Multimedia-focused laptop with 14.1-inches screen, 320 GB hard drive 15.4-Inches widescreen TFT LCD display, 1280x800 resolutions 80GB hard drive, 1GB RAM integrated 802.11b/g Wi-Fi Certified 60GB hard drive, 1GB memory 80GB hard drive (2.2 pounds), 1.6GHz CPU 1GB DDR2 SDRAM, 160GB hard drive (2.2 pounds), 1.6GHz CPU 80GB hard drive, 1GB RAM, 6-cell battery provides up to 6 1/2 hours 80GB hard drive, 512MB memory 1.6GHz CPU, 1GB DDR2 SDRAM, 60GB hard drive (2.2 pounds) Multimedia-focused laptop with 14.1-inches widescreen, 3 GB RAM (4 GB max) Multimedia-focused laptop with 14.1-inch screen, DVD-R drive 1GB DDR2 SDRAM, 160GB hard drive (2.2 pounds) 80GB hard drive, 1GB memory 2 GB RAM (4 GB max), 120 GB hard drive, DVD/CD super drive 13.3-inches widescreen TFT LCD display, 160 GB hard drive 320 GB hard drive, 4 GB RAM 19-inches LCD 15.4-inches widescreen TFT LCD display, 1280x800 resolutions 15-inch screen, 60 GB hard drive, 128 MB of RAM (512 MB maximum), DVD-ROM 15.4-inches widescreen TFT LCD display, 1280x800 Resolutions 15.4-inches widescreen TFT LCD Display, 1280x800 resolutions 180 GB hard drive.2 GB RAM.16-inch LCD. 15.4-inch Widescreen TFT LCD display, 1280x800 resolutions 2.33GHz dual processor, 4MB L2 cache, 750GB 7200RPM hard drive 2.3GHz dual processor, 4 GB DDR2 SDRAM memories, 19" widescreen LCD monitors 1.60GHz dual processor, 1GB DDR2 memory, 30GB 5400RPM hard drive 1.80GHz dual processor, 1GB DDR2 memory, 320GB 5400RPM hard drive 1.80GHz dual processor, 4GB DDR2 memory, 400GB 7200RPM hard drive 3.0GHz processor, 4GB DDR2 SDRAM memory, 500GB 7200RPM hard drive, 19 inch LCD flat monitors 3.0GHz processor, 4 GB DDR2 SDRAM memories, 500GB 7200RPM hard drive, 19 inches LCD flat monitors 1.80GHz dual processor, 4GB DDR2 memories, 400GB 7200RPM hard drive 2.33GHz dual processor, 750GB 7200RPM hard drive, 19â€ widescreen LCD monitors 2.3GHz dual processor, 4 GB DDR2 SDRAM memories, 4MB L2 Cache 1.60GHz dual processor, 2GB DDR2 memories, 30GB 5400RPM hard drive 1.80GHz dual processor, 2GB DDR2 memories, 320GB 5400RPM hard drive 3.0GHz processor, 4 GB DDR2 SDRAM memories, 500GB 7200RPM hard drive, 19 inch LCD flat monitors 1.80GHz dual processor, 2GB DDR2 memory, 320GB 5400RPM hard drive 1.80GHz dual processor, 4GB DDR2 Memories, 400GB 7200RPM hard drive 1.80GHz dual processor, 4GB DDR2 memory, 500GB 7200RPM hard drive 24 inches HD display, 160Â° horizontal and vertical viewing angles 24 widescreen HD display, 1920 x 1200 maximum resolutions 22" screen LCD, Resolution -1680 x 1050 22" wide screen LCD, 0.285mm x 0.285mm pixel pitch, 300cd/m2 (typical) brightness Screen size: 20", response time: 5ms, brightness: 300cd/m2 20" widescreen 1600 x 900 VGA, brightness: 250cd/m2, contrast ratio: 10000:1 19-inches TFT LCD, 300cd/m2 brightness, 2000:1 dynamic contrast ratio, 5 ms response time 19 inches widescreen LCD monitor 300cd/m2 (typical) brightness Size/Type: 17" TFT LCD, maximum resolution: 1280 x 1024, response time: 5ms 17 inches widescreen LCD monitor 300cd/m2 (typical) brightness Wide viewing angle of 100Â° vertical and 120Â° horizontal, dot pitch: 0.297 mm pixel pitch Reduces VLF/ELF radiation by up to 99.5% Safely prevents static while eliminating up to 95% of screen glare 24 Inch HD display, 160Â° horizontal and vertical viewing angles 24 widescreen HD display, 1920 x 1200 maximum resolution 22" Screen LCD, resolution - 1680 x 1050 22" widescreen LCD, 0.285mm x 0.285mm pixel pitch, 300cd/m2 (typical) brightness Screen size: 20", response time: 5ms,  brightness: 300cd/m2 19inches TFT LCD.300cd/m2 brightness, 2000:1 dynamic contrast ratio, 5 ms response time Size/Type: 17" TFT LCD, maximum resolution: 1280 x 1024, response Time: 5ms 24 inches widescreen HD display, 1920 x 1200 maximum resolutions 22" screen LCD, resolution - 1680 x 1050 20" widescreen 1600 x 900 VGA, brightness: 250cd/m2, contrast Ratio: 10000:1 19 inches TFT LCD, 300cd/m2 brightness, 2000:1 dynamic contrast ratio, 5 ms response time 19 inches widescreen LCD monitor, 300cd/m2 (typical) brightness Size/Type: 17" TFT LCD, maximum resolution: 1280 x 1024. response time: 5ms 17 inches widescreen LCD monitor, 300cd/m2 (typical) brightness 24 Inches HD display, 160Â° horizontal and vertical viewing angles 17 inch widescreen LCD monitor, 300cd/m2 (typical) brightness 1080p high definition projector, 1200 ANSI Lumens, 14,000:1 contrast ratio, 2 HDMI inputs 1920 x 1080p pixel resolution, HDTV 1080p native resolution, 8000:1 contrast ratio 720p High Definition performance with 10,000:1 contrast ratio. Native 720p Resolution, 1700 ANSI lumens, 2500:1 contrast ratio, up to 3000 hours lamp life High brightness, 1300 ANSI lumen light output, remote control 850 typical lumens, 3,000:1 contrast ratio, supports 4:3 and 16:9 aspect ratios 16:9 aspect ratios - 125in, 160 degree wide viewing angle 16:9 aspect ratios - 113in, dual wall and ceiling-perfect for home / business 16:9 aspect ratios - 106in, electric/motorized screen for home theater and commercial presentations 16:9 aspect ratios-100in, designed for wall or ceiling installation 1:1 aspect ratio-85in, enjoy fast, easy setup with the innovative, patent-pending design Standard 4:3 aspect ratio-85in, use with any home theater or business projector 1080p high definition projector,1200 ANSI Lumens, 14,000:1 contrast ratio, 2 HDMI inputs 720p high definition performance with 10,000:1 contrast ratio Native 720p resolution, 1700 ANSI lumens, 2500:1 contrast ratio, up to 3000 hours lamp life 16:9 aspect ratios-125in, 160 degree wide viewing angle 16:9 aspect ratios-113in, dual wall and ceiling - perfect for home / business 16:9 aspect ratios-106in, electric/motorized screen for home theater and commercial presentations 16:9 aspect ratio-100in, designed for wall or ceiling installation High brightness, 1300 ANSI lumen Light output, remote control 16:9 aspect ratios-113in, dual wall and ceiling- perfect for home / business 1080p high definition projector, 1200 ANSI lumens, 14,000:1 contrast ratio, 2 HDMI inputs 16:9 aspect ratios-113in, dual wall and ceiling-perfect for home / business 16:9 aspect ratios - 100in, designed for wall or ceiling installation 1920 x 1080p pixel resolution, HDTV 1080p native resolution,8000:1 contrast ratio Native 720p resolution, 1700 ANSI lumens,2500:1 contrast ratio, up to 3000 hours lamp life 16:9 aspect ratios - 113in, dual wall and ceiling - perfect for home / business 16:9 aspect Ratios - 106in, electric/motorized screen for home theater and commercial presentations 16:9 aspect Ratio-100in, designed for wall or ceiling installation 16:9 aspect ratio-125in, 160 degree wide viewing angle 16:9 aspect ratio-113in, dual wall and ceiling-perfect for home / business Current       	      
+                      @ @      @@€ H€À  @€ H€@@€€@ÀÀ @À   @	À@  @
+À€  @ Á  @   H A   @   @@ÁH@  H@A  H@  H€ÁH€@€A  @€  @ÀÁ  @À  @ÀA  @À  @ÀÁ  @   @ B  @ ‚H Â@  @!@B			@"@‚			@#@Â			@$€	
+ 
+
+@%€B	
+$
+
+  @&€‚	
+%
+
+  @'€Â	
+!
+
+  @(À
+  @)ÀB
+  @*À‚
+  @+ÀÂ
+  @,À  @-C2 A.ƒ4 A/Ã0 A0D2 A1DC4 A2Dƒ1 A3DÃ0 A4„4 A5„C3 A6„ƒ7 A7„Ã8 A8Ä4 A9ÄC3 A:Äƒ7 A;ÄÃ2 A<4 A=D2 A>„1 A?Ä0 A@: AAHDA BBH„D BCHÄH BDHG BEˆD@ BFˆ„D BGˆÄA BHˆB BIÈDD BJÈ„B BKÈÄC BLÈ@JME@JN…BJOÅHJPD BQEG BRH…@ BSHÅC BTHE BUHED BVH…J BWˆÅD BXˆA BYˆE@ BZˆ…E B[ˆÅC B\ÈA A]ÈED A^È…@ A_ÈÅB A`ÈE AaF@ Ab†D AcÆB AdG AeHF@ AfH†D AgHÆB AhHG AiˆFD Ajˆ†B AkˆÆH AlˆF AmˆFA AnÈ†D AoÈÆA ApÈB AqÈFC ArÈ†@ AsÇP CtT CuGR CvL‡P CwLÇT CxLR CyŒG` CzŒ‡d C{ŒÇb C|ÌP C}ÌGT C~Ì‡R CÌÇ[ C€  P  CH  T  C‚ˆ  R  CƒÈ  [  C„L!!`! C…LH!!d! C†Lˆ!!b! C‡LÈ!!k! CˆŒ""`" C‰ŒH""d" CŠŒˆ""b" C‹ŒÈ""k" CŒÌ##`#  CÌH##d#  CŽÌˆ##b#  CÌÈ##k#  C	$$`$! C‘I$$d$! C’‰$$b$! C“É$$k$! C”L	%%`%" C•LI%%d%" C–L‰%%b%" C—LÉ%%k%" C˜Œ	&&`&# C™ŒI&&d&# CšŒ‰&&b&# C›ŒÉ&&k&# CœÌ	''`'$ CÌI''d'$ CžÌ‰''b'$ CŸÌÉ''k'$ C 
+((`(% C¡J((d(% C¢Š((b(% C£Ê((k(% C¤L
+))d)& C¥J)*t*'  D¦ÐŠ)+t+(  D§Ë),t,)  D¨
+**t**  D©PK*-t-+  Dª‹*.t.,#D«ÐË*/t/-#D¬+0t0.#D­PL+1t1/#D®Œ+2t20#D¯ÐÌ+3t31  D°,4t42  D±PM,5t53  D²Š,*p*'  D³ÐÊ,+p+4!D´-,p,5!DµJ-*p*6!D¶P‹--p-7!D·Ë-.p.,!D¸Ð./p/8!D¹L.0p09!DºPŒ.1p1:"L»Ì.2p20"L¼Ð/3p3;"L½M/4p42"L¾P/5p5<"L¿”Í/6„6=*MÀÔ07„7>*MÁN08„8?*MÂTŽ09„9@*MÃ”Î0:„:A*EÄÔ1;„;B*EÅ”M16„6C)EÆ1<„<D)EÇTÏ1=„=E (EÈÔ27„7F (EÉ”O2>„>G*MÊÔ2?„?H*EËÐ2@„@I*MÌ”36„6J)MÍO3<„<K*MÎT3A„AL*MÏ”Í36€6M)EÐÔ47€7N*EÑN48€8?*ÍÒTŽ49€9@*ÍÓ”Î4:€:O,…ÔÔ5;€;B,…Õ”M56€6P,ÅÖ5<€<Q,…×TÏ5=€=E,…ØÔ67€7F,ÅÙ”O6>€>G,…ÚÔ6?€?H,…ÛÐ6@€@R,…Ü”76€6J,…ÝO7<€<K,ÅÞT7A€AS,…ß”Í76‹6M,…àÔ87‹7N,ÅáN88‹8?,…âTŽ89‹9@,…ã”Î8:‹:O,ÅäÔ9;‹;B,…å”M96‹6T,…æ9<‹<D,ÅçTÏ9=‹=E,…èÔ:7‹7F,…é”O:>‹>G,ÅêÔ:?‹?H,…ëÐ:@‹@R,…ì”;6‹6J,ÅíO;<‹<K*îT;A‹AL*ïÎ;8„8UÈð”<B„BAˆñÔP<C„CVˆò‘<D„DPÈóTÑ<E„EGˆô”=F„FWˆõ”P=B„BDÈöÔ‘=G„GGˆ÷Ò=H„HFˆøT>I„IXÈù”R>J„JFˆúÔ’>K„K=ˆûÓ>L„LYÈü?8€8Bˆý”P?B€BOˆþÔ?C€CZÈÿÑ?D€DPˆ U@E€EGˆ•Q@F€FWÈ•@B€BDˆÕÑ@G€GGˆAH€HFÈURAI€IXˆ•’AJ€JFˆÕÒAK€K=ˆBL€LYˆ	NB8‚8Bˆ
+•BB‚BOˆÕÐBC‚CVˆCD‚DPˆUQCE‚EGˆ•‘CF‚FWˆ•ÐCB‚BQˆÕDG‚GGˆRDH‚HFˆU’DI‚IXˆ•ÒDJ‚JFˆÕEK‚KMˆSEL‚LYˆŽE8‹8Uˆ•ÐEB‹BOˆÕFC‹CVÈQFD‹D[ˆU‘FE‹EGˆ•ÑFF‹FWÈ•GB‹B\ˆÕQGG‹GGˆ’GH‹HFÈUÒGI‹IXˆ •HJ‹JFˆ!ÕRHK‹KMÈ"“HL‹L]ˆ#™ÈHMd"^"Œ$YINdM_"Œ%NI8”8`"Œ&™“IO”Na"Ì'ÙÓIP”Ob"Œ(JQ”Pc"Œ)YTJR”Qd"Ì*Y’JI”Ie"Œ+™ÔJS”Rf"Œ,ÙKT”Sg"Œ-UKUdTh"Œ.Y•KVdUi"Ì/ÙÍK7d7^"”0™LBdVj"”1ÙULWdWk"Ô2Ù•LWdWl"”3™ÈLM`"^"”4YMN`M_"Ô5NM88`%œ6™“MONa%œ7ÙÓMPOb%œ8NQPc%œ9YTNRQd%œ:Y’NIIe%œ;™ÔNSRm%œ<ÙOTSg%œ=UOU`Th%œ>Y•OV`Ui%œ?ÙÍO7`7^%œ@™PB`Vj%œAÙUPW`Wk%œBÙ•PW`Wn%œC™ÈPMk"^%œDYQNkM_%œENQ8›8`%œF™“QO›No%œGÙÓQP›Ob%œHRQ›Pp%œIYTRR›Qd%œJY’RI›Ie%œK™ÔRS›Rm%œLÙST›Sg%œMUSUkTh%œNY•SVkUi%œOÙÍS7k7^%œP™TBkVj%œQVTX¤Xq5žR]–TY¤Yr5žSÖTZ¤Zs5žTÝU[¤[t5žUMU6¤6u5žV—U\¤\v5žW]×U]¢]w5žXÝV7¢7x5žYWV^¢^y5žZÝ—V_¢_z5ž[ØV`¢`{5ž\]Wa¢a|5ž]XWH b}5ž^Ý˜Wb c~5ž_ÙWc d5ž`]Xd e€5ÞaYXe f5žbÝ™Xf g‚5ÞcÚXg£hƒ5žd]Yh£i„5ÞeZYi£j…5žfÝšYj£k†5ÞgÛYk£l‡5žh]Zl£mˆ5Þi[Zm¤n‰›jÝZ7¤7xÛkÙZe¤f›l[6¤6u›mX[`¤`Š›nš[i¤j…›oÛ[m¢nq›pÝ\7¢7‹›qY\e¢f›r\6¢6u›sØ\`¢`ŒÛt]i¢j…›u[]m nqÛvÝ]7 7x›wÙ]e fÛx^6 6u›yX^` `ŒÛzš^i j…›{Û^m£nqÛ|Ý_7£7x›}Y_e£fÛ~_6£6u›Ø_`£`{Û€`i£j…›[`m¡nqÛ‚Ý`7¡7x›ƒÙ`e¡fÛ„a6¡6u›…[am¤nqÙ†Ýa7¤7x
+‰‡Ùae¤f
+‰ˆb6¤6u
+‰‰Xb`¤`
+‰Ššbi¤j…
+‰‹Ûbm¢nq
+‰ŒÝc7¢7x
+‰Yce¢f
+ÉŽc6¢6u
+‰Øc`¢`Š
+Édi¢j…
+‰‘[dm¡nq
+É’Ýd7¡7x
+‰“Ûdm¤n‰:Ï”Ýe7¤7x:•Yee¤f:Ï–e6¤6u:—Øe`¤`Š:Ï˜fi¤j…:—™[fm¢nq:šÝf7¢7x:›Ùfe¢f:œg6¢6Ž:Xg`¢`:žšgi¢j…:ŸáÛgn°o‹ ¡h6°6‘“¡!\ho°p’Ó¢aœhW°q“‹£¡Ühp°r”‹¤áiq°s•‹¥á[in´o‹¦¡i6´6‘‹§!Üio´p’‹¨ajW´q“‹©¡\jp´r”‹ªáœjq´s–‹«áÛjn»o‹¬!kr»t‘‹­!\ko»p’Ë®aœkW»q“‹¯¡Ükp»r—Ë°áln²o‹±¡Ml6²6‘Ë²!œlo²p’‹³aÜlW²q“Ë´¡mp²r—‹µa]ms°u˜
+É¶¡mt»v™
+‰·áÝmu°wš
+É¸!nv»x›
+‰¹¡Nn:°:”
+Éºažnw°yœ
+‰»aÝns´u
+É¼¡ot´v‘½á]ou´wš¾!žov´x¿¡Îo:´:”Àapw´y–Áa]ps»uÂ¡pt°v‘ÃáÝpu³wšÄ!qv°x›Å¡Nq:»:”Æaqs²uÇ¡Ýqt²v‘Èáru²wšÉ!^rv²x›Ê¡Žr:²:žËáÎr;²;ŸÌ¥sZdz <‡ÍeUsVdU¡<‡Îåžsxd{¢<ÇÏ%ßsyd|£<‡ÐetPd}¤<ÇÑ¥_tOd~¥<‡ÒåŸtzd¦<ÇÓ%àt{d€§<‡Ôe u.d¨<‡Õ¥`u,d‚©<‡Öe u.dª<Ç×åÊu+d+«<ÇØå v|dƒ¬<ÇÙ%av}d„«<ÇÚ¥žvZbz­<ÇÛeÕvVbU®<ÇÜåwxb{¯<ÇÝ%_wyb|°<ÇÞeŸwPb}¤<Çß¥ßwOb~¥<Çàåxzb¦<Çá%`x{b€§<Çâe x.b¨<Çã¥àx,b‚©<Çäe y.bª<ÇååJy+b+«<Çæå y|bƒ¬<Çç%áy}b„«<Çè¥zZdz­ÃéeUzVdU¡Ãêåžzxd{¯Ãë%ßzyd|°Ëìe{Pd}±Ëí¥_{Od~¥Ëîe¡{zd…²Ëï%à{{d€§Ëðe |.d³Ëñ¥`|,d‚©Ëòe |.dªËó¥á|+d†«Ëôå }|dƒ¬Ëõåa}~d‡«Ëö¥ž}Zbz Ë÷eÕ}VbU´Ëøå~xb{µËù%_~yb|£ËúeŸ~Pb}¤Ëû¥ß~Ob~¶Ëüe!zb…·Ëý%`{b€¸Ëþe .b¹Ëÿ¥à,b‚ºË f €.bªË¦a€+b†«Ëæ €|bƒ¬Ëæá€~b‡«Ë¦Zdz»
+ÉfUVdU¡
+Éæžxd{¯
+É&ßyd|°
+Éf‚Pd}¤
+É	¦_‚Od~¶
+É
+f¡‚zd…·
+É&à‚{d€¸
+Éf ƒ.d¨
+É¦`ƒ,d‚º
+Éf ƒ.dª
+É¦ÞƒZbz 
+Áf„VbU®
+Áæ^„xb{µ
+Á&Ÿ„yb|°
+Éfß„Pb}¤
+É¦…Ob~¥
+Éfa…zb…·
+É& …{b€¸
+Áfà….b¨
+Á¦ †,b‚¼
+Áf`†.bª
+Á*¢†Äˆ½:Çjâ†€Ä‰¾:Çê‡7Ä7¿:Çªb‡UÄŠÀ:Ïê¢‡Ä‹Á:Ï*ã‡NÄŒÂ:Ï j#ˆ‚ÔÃ:Ï!ªcˆ8ÔŽÄ:Ï"ê£ˆƒÔÅ:Ï#*äˆ„ÔÆ:Ï$j!‰zÔ…Ç:×%jd‰-Ô‘È:×&*¢‰ÂˆÉ:×'jâ‰€Â‰¾:Ï(êŠ7Â7Ê:Ï)ªbŠUÂŠË:Ï*ê¢ŠÂ‹Á:Ï+*ãŠNÂŒÂ:Ï,j#‹‚ÒÌ:Ï-ªc‹8ÒŽÍ:Ï.ê£‹ƒÒÎ:Ï/*ä‹„ÒÏ=ß0j!ŒzÒ…Ç=ß1jdŒ-Ò‘È=ß2*¢ŒÀˆ½=ß3jâŒ€À‰¾=ß4ê7À7Ê=ß5ªbUÀŠË=ß6ê¢À‹Ð=ß7*ãNÀŒÂ=ß8j#Ž‚ÐÌ=ß9ªcŽ8ÐŽÑ=ß:ê£ŽƒÐÎ=ß;*äŽ„ÐÆ=ß<j!zÐ…Ç=ß=jd-Ð‘È=ß>*¢ÄˆÒØ?jâ€Ä‰¾Ø@ê7Ä7ÊØAªbUÄŠËØBê¢Ä‹ÁØC*ãNÄŒÂØDj#‘‚ÔÃØEªd‘8Ô’ÓØFê¤‘ƒÔ“ÎØG*å‘„Ô”ÔØHj!’zÔ…ÇØIjd’-Ô‘ÈØJ*¢’Âˆ½ØKjâ’€Â‰ÕØLê“7Â7ÊØMªb“UÂŠÖØNê¢“Â‹ÁØO*ã“NÂŒÂØPj#”‚ÒÌØQªd”8Ò’×ØRê¤”ƒÒ“ØØS*å”„Ò”ÙØTj!•zÒ…ÇØUjd•-Ò‘ÈØV*¢•Àˆ½ØWjâ•€À‰¾ØXê–7À7ÊÈYªb–UÀŠËÈZê¢–À‹ÁÈ[*ã–NÀŒÂØ\j#—‚ÐÚØ]ªd—8Ð’ÛØ
